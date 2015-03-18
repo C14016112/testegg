@@ -1,0 +1,31 @@
+From 603e537110a7f1ec7ed46116d3830854ae3ef5a5 Mon Sep 17 00:00:00 2001
+From: Bo-Yang <byshiue@gmail.com>
+Date: Wed, 18 Mar 2015 11:02:55 +0800
+Subject: [PATCH] HW egg.c method1
+
+---
+ egg1.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/egg1.c b/egg1.c
+index 1010771..b04d4ff 100644
+--- a/egg1.c
++++ b/egg1.c
+@@ -1,10 +1,10 @@
+-#include <       >
++#include <stdio.h>
+ 
+ int main()
+ {
+-	int  ;
+-	for(i=0;i<  ;++i)
++	int i;
++	for(i=0;i<10 ;++i)
+ 	{
+-		printf("egg-  \n",  );	// please print egg-1, egg-2, egg-3, ..., egg-9
++		printf("egg- %d \n", i+9 );	// please print egg-1, egg-2, egg-3, ..., egg-9
+ 	}
+ }
+-- 
+1.9.5.msysgit.0
+
